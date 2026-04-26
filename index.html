@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EduKids - Numbers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--<header class="top-bar">
+    <div class="logo">EduKids</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Letters</a>
+      <a href="#" class="active">Numbers</a>
+      <a href="#">Animals</a>
+      <a href="#">Log In</a>
+    </nav>
+    <div class="avatar">😊</div>
+  </header>-->
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Let's Learn Numbers!</h1>
+        <p>Click a number to watch its video!</p>
+      </div>
+    </section>
+
+    <section class="numbers-section">
+      <div class="numbers-grid">
+        <button class="num-card" data-video="1.mp4">1</button>
+        <button class="num-card" data-video="2.mp4">2</button>
+        <button class="num-card" data-video="3.mp4">3</button>
+        <button class="num-card" data-video="4.mp4">4</button>
+        <button class="num-card" data-video="5.mp4">5</button>
+        <button class="num-card orange" data-video="6.mp4">6</button>
+        <button class="num-card orange" data-video="7.mp4">7</button>
+        <button class="num-card orange" data-video="8.mp4">8</button>
+        <button class="num-card orange" data-video="9.mp4">9</button>
+        <button class="num-card orange" data-video="10.mp4">10</button>
+      </div>
+      <br>
+      <video id="numVideo" width="450" controls></video>
+    </section>
+
+    <section class="games-section">
+      <div class="card">
+        <h3>Counting in Order!</h3>
+        <ol>
+          <li>One</li>
+          <li>Two</li>
+          <li>Three</li>
+          <li>Four</li>
+          <li>Five</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h3>How many are there?</h3>
+        <p>Click the right answer!</p>
+        <div id="gameArea"></div>
+        <button id="newQuestionBtn">New Question</button>
+        <p id="gameMsg"></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>©️ 2024 EduKids. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
